@@ -7,6 +7,7 @@ import ShopCategory from "./pages/ShopCategory";
 import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import LoginSignup from "./pages/LoginSignup";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,6 +28,7 @@ function App() {
           <Route path="/login" element={<LoginSignup />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
